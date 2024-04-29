@@ -110,6 +110,10 @@ main h3 {
     max-width: 50%; /* Ensure the image doesn't exceed its container */
 }
 
+hr{
+    width: 80%;
+}
+
 .state-info {
     display: flex;
 }
