@@ -1,0 +1,123 @@
+/* styles/base.css */
+
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #bbb;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header,
+main {
+    margin: 0 auto;
+    max-width: 800px; /* Set maximum width for main element */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: #36454f;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid #fff;
+}
+
+.active {
+    color: yellow;
+}
+
+main {
+    padding: 0 30px 30px; /* Adjust padding to create space for h2 element */
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible columns */
+    gap: 20px; /* Gap between cards */
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center; /* Center text horizontally */
+    background-color: #36454f;
+    color: #fff; /* Change text color */
+    padding: 10px; /* Add padding for better appearance */
+    border-radius: 5px; /* Add border radius */
+    margin: 0; /* Remove default margin */
+}
+
+.card a {
+    text-decoration: none; 
+}
+.card a:hover{
+    border: 5px solid #36454f;
+}
+
+/* styles/base.css */
+
+.profile-info {
+    display: flex;
+}
+
+.profile-info p {
+    flex: 1; /* Allow the paragraph to grow and shrink */
+    margin-right: 20px; /* Add some spacing between paragraph and image */
+}
+
+.profile-info img {
+    padding: 15px;
+    width: 60%;
+    height: 60%;
+    max-width: 50%; /* Ensure the image doesn't exceed its container */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p span {
+    font-weight: bold;
+}
