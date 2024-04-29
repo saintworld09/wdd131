@@ -3,20 +3,18 @@
 /* Add your CSS styles here */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 header {
-    background-color: #bbb;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0 30px 30px; /* Adjust padding to create space for h2 element */
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible columns */
+    gap: 20px; /* Gap between cards */
 }
 
 header,
@@ -28,12 +26,15 @@ main {
 header h1 {
     margin: 0;
     font-size: 2rem;
+    font-weight: 100;
+    width: 800px;
 }
 
 nav {
     background-color: #36454f;
     margin: 0 auto;
     max-width: 800px;
+    width: 800px;
 }
 
 nav ul {
@@ -80,6 +81,9 @@ main h2 {
     border-radius: 5px; /* Add border radius */
     margin: 0; /* Remove default margin */
 }
+main h3 {
+    text-align: center;
+}
 
 .card a {
     text-decoration: none; 
@@ -104,6 +108,20 @@ main h2 {
     width: 60%;
     height: 60%;
     max-width: 50%; /* Ensure the image doesn't exceed its container */
+}
+
+.state-info {
+    display: flex;
+}
+.state-info p {
+    flex: 1;
+    margin-right: 20px;
+}
+.state-info img {
+    padding: 5px;
+    width: 20px;
+    height: 30px;
+    max-width: 50%;
 }
 
 
