@@ -1,0 +1,9 @@
+/* Media query for larger view */
+@media (min-width: 600px) {
+    /* Adjustments for larger view */
+    main figure {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Three columns */
+        grid-gap: 20px;
+    }
+}
