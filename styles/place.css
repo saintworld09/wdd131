@@ -1,0 +1,72 @@
+/* Global Styles */
+:root {
+    --primary-color: #008080; /* Example color, change to match the country's color scheme */
+    --secondary-color: #ffffff; /* Example color, change to match the country's color scheme */
+    --footer-bg-color: var(--primary-color); /* Background color for footer */
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Example font, change as desired */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Example background color, change as desired */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+/* Header Styles */
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Main Heading Styles */
+main h1 {
+    background-color: var(--footer-bg-color); /* Set background color same as footer */
+    color: var(--secondary-color);
+    padding: 10px 0;
+    margin-top: 0;
+    width: 100%; /* Ensure full width */
+}
+
+/* Main Styles */
+main {
+    padding: 20px;
+    text-align: center; /* Center content within main section */
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.data p {
+    margin: 5px 0;
+}
+
+.weather {
+    margin-top: 20px;
+}
+
+.weather img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--footer-bg-color);
+    color: var(--secondary-color);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
