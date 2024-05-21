@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Temples Album - Adekola Babatunde</title>
+    <meta name="description" content="This website, titled Temple Album, serves as a digital platform to showcase a collection of temple images. Users can navigate through the website using the provided menu options, including Home, Old, New, Large, and Small categories. The website features a responsive design, ensuring optimal viewing experience across various devices. Additionally, it includes a dynamic footer displaying the current year and the date of the last modification. The mobile-friendly design incorporates a hamburger menu for easy navigation on smaller screens.">
+    <meta name="author" content="Adekola Babatunde">
+    <!-- Link to CSS files -->
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <button id="hamburger">&#9776;</button>
+        <h1>Temple Album</h1>
+        <nav>
+            <ul>
+                <li><a href="#" id="home">Home</a></li>
+                <li><a href="#" id="old">Old</a></li>
+                <li><a href="#" id="new">New</a></li>
+                <li><a href="#" id="large">Large</a></li>
+                <li><a href="#" id="small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div id="temple-container" class="container"></div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="current-year"></span>  🌹  Adekola Babatunde  🌹 Nigeria. </p>
+        <p>Last modified: <span id="last-modified"></span></p>
+    </footer>
+    <script src="scripts/filtered-temples.js"></script>
+</body>
+</html>

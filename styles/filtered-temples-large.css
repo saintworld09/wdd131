@@ -1,0 +1,10 @@
+/* Media query for larger view */
+@media (min-width: 600px) {
+    /* Adjustments for larger view */
+    
+}
+/* Styles for larger screens */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
