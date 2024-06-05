@@ -1,0 +1,24 @@
+/* Large screen styles */
+@media (min-width: 768px) {
+    header .burger {
+        display: none;
+    }
+
+    header .nav-links {
+        display: flex;
+    }
+
+    #hero {
+        padding: 150px 20px;
+    }
+
+    #news-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #news-container article {
+        flex: 1 1 45%;
+        margin: 10px;
+    }
+}

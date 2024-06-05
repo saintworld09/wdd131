@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Babatunde Adekola">
+    <meta name="description" content="Get in touch with Saintworld Academy for inquiries, support, or feedback.">
+    <title>Contact Us - Saintworld Academy</title>
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css" media="screen and (min-width: 768px)">
+    <script src="scripts/project.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Saintworld Academy Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="social-media">
+                <a href="#"><img src="images/facebook-icon.jpeg" alt="Facebook"></a>
+                <a href="#"><img src="images/x-logo.png" alt="X"></a>
+                <a href="#"><img src="images/instagram-icon.jpeg" alt="Instagram"></a>
+            </div>
+            <div class="contact-info">
+                <p>Contact us: <a href="mailto:info@saintworldacademy.com">info@saintworldacademy.com</a></p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="sitemap">
+                <a href="sitemap.html">Sitemap</a>
+            </div>
+        </div>
+        <p>&copy; 2024 Saintworld Academy</p>
+    </footer>
+</body>
+</html>
